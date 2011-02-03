@@ -2,7 +2,7 @@ $LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
 require "vcr/version"
 
 Gem::Specification.new do |s|
-  s.name = "vcr"
+  s.name = "vcr-gem-testers"
   s.homepage = "http://github.com/myronmarston/vcr"
   s.authors = ["Myron Marston"]
   s.summary = "Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests."
