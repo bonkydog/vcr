@@ -34,3 +34,5 @@ end
 
 task :release => :relish
 
+# For gem-test: http://gem-testers.org/
+task :test => :spec
